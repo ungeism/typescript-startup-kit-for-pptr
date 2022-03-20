@@ -14,8 +14,11 @@ This is a start-up kit for a typescript project, which uses puppeteer.
 
 ## Without cloneing the repository
 
-Followings are basic command for setting typescript & pptr
-see https://typescript-jp.gitbook.io/deep-dive/nodejs, https://www.npmjs.com/package/@types/puppeteer
+Followings are basic command for setting typescript & pptr<br>
+see following links
+
+- https://typescript-jp.gitbook.io/deep-dive/nodejs
+- https://www.npmjs.com/package/@types/puppeteer
 
 ### Run the following commands.
 
@@ -58,10 +61,10 @@ npm install nodemon --save-dev
 > Now you can develop comfortably:
 > every time you run npm start and change index.ts, the following will happen automatically: npm start will run > npm start and index.ts will be changed automatically.
 
-- nodemon re-runs ts-node
-- ts-node automatically retrieves tsconfig.json and TypeScript version and compiles TypeScript
-- ts-node executes the output JavaScript in Node.js
-  When you are ready to deploy your JavaScript application, run npm run build.
+> - nodemon re-runs ts-node
+> - ts-node automatically retrieves tsconfig.json and TypeScript version and compiles TypeScript
+> - ts-node executes the output JavaScript in Node.js
+>   When you are ready to deploy your JavaScript application, run npm run build.
 
 ### create src dir & files
 
